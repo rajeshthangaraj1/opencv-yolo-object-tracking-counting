@@ -1,0 +1,63 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*$py.class
+
+# model file
+*.pt
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Environment variables
+*.env
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled code
+*.so
+*.dll
+*.dylib
+
+# Model files & weights (optional)
+*.pt
+*.weights
+*.onnx
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE settings
+.vscode/
+.idea/
+
+# Images/videos generated during runs
+output/
+outputs/
+results/
+runs/
+
+# Dataset cache
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
